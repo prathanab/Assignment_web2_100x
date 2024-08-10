@@ -13,7 +13,7 @@ function readFileAsync(filePath, encoding = 'utf8') {
 }
 
 // Usage
-readFileAsync('./week2/a.txt')
+readFileAsync('./week2day1/a.txt')
   .then(data => {
     console.log(data);
   })
